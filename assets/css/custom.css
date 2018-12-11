@@ -1,0 +1,10 @@
+.table-white {
+    background-color: #fff
+}
+.center {
+    text-align: center;
+}
+.center>* {
+    display: inline-block;
+    margin: 0 auto;
+}
