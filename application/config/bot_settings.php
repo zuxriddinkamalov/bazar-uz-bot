@@ -8,8 +8,8 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$config['token'] = '570147076:AAEVSRHLyNQ38WEbAPphw8p8YC0p1yRUnII';
-$config['hook_url'] = 'https://ofs.uz/bazar.uz/bot/';
-$config['bot_name'] = 'uzmegabrain_bot';
+$config['token'] = '';
+$config['hook_url'] = '';
+$config['bot_name'] = '';
 
-$config['chat_id'] = '-1001313389112';
+$config['chat_id'] = '';
