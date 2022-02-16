@@ -8,8 +8,8 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$config['token'] = '';
-$config['hook_url'] = '';
+$config['token'] = getenv('TELEGRAM_BOT_TOKEN');
+$config['hook_url'] = getenv('TELEGRAM_BOT_HOOK_URL');
 $config['bot_name'] = '';
 
 $config['chat_id'] = '';
