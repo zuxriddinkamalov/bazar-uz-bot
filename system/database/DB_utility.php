@@ -42,7 +42,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  *
  * @category	Database
  * @author		EllisLab Dev Team
- * @link		https://codeigniter.com/user_guide/database/
+ * @link		https://codeigniter.com/userguide3/database/
  */
 abstract class CI_DB_utility {
 
@@ -257,7 +257,7 @@ abstract class CI_DB_utility {
 			$line = array();
 			foreach ($row as $item)
 			{
-				$line[] = $enclosure.str_replace($enclosure, $enclosure.$enclosure, $item).$enclosure;
+				$line[] = $enclosure.str_replace($enclosure, $enclosure.$enclosure, (string) $item).$enclosure;
 			}
 			$out .= implode($delim, $line).$newline;
 		}

@@ -44,7 +44,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @subpackage	Helpers
  * @category	Helpers
  * @author		EllisLab Dev Team
- * @link		https://codeigniter.com/user_guide/helpers/html_helper.html
+ * @link		https://codeigniter.com/userguide3/helpers/html_helper.html
  */
 
 // ------------------------------------------------------------------------
@@ -132,7 +132,6 @@ if ( ! function_exists('_list'))
 		$out = str_repeat(' ', $depth)
 			// Write the opening list tag
 			.'<'.$type._stringify_attributes($attributes).">\n";
-
 
 		// Cycle through the list elements.  If an array is
 		// encountered we will recursively call _list()
