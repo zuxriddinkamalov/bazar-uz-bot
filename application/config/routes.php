@@ -63,6 +63,7 @@ $route['logout'] = 'auth/logout';
 $route['auth/sign-in'] = 'auth/signIn';
 
 $route['bot'] = 'bot/bot';
+$route['bot/register-bot'] = 'bot/bot/setWebHook';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
