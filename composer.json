@@ -11,6 +11,6 @@
   ],
   "require": {
     "php": "^8.1",
-    "ext-mcrypt": "*"
+    "ext-mcrypt": "^1.0.4"
   }
 }
