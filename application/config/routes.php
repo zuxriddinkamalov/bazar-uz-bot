@@ -64,6 +64,7 @@ $route['auth/sign-in'] = 'auth/signIn';
 
 $route['bot'] = 'bot/bot';
 $route['bot/register-bot'] = 'bot/bot/setWebHook';
+$route['bot/remove-bot'] = 'bot/bot/deleteWebHook';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
